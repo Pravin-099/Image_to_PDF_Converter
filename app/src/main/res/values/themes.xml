@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="Base.Theme.I2P" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/i2p_colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/i2p_colorPrimaryVariant</item>
+        <item name="colorSecondary">@color/i2p_colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/i2p_colorSecondaryVariant</item>
+        <item name="android:windowBackground">@drawable/background_pattern</item>
+    </style>
+
+    <style name="Theme.I2P" parent="Base.Theme.I2P" />
+
+    <!-- Custom colors -->
+    <color name="i2p_colorPrimary">#FF4081</color>
+    <color name="i2p_colorPrimaryVariant">#F50057</color>
+    <color name="i2p_colorSecondary">#3F51B5</color>
+    <color name="i2p_colorSecondaryVariant">#303F9F</color>
+    <color name="i2p_colorBackground">#ECEFF1</color>
+</resources>

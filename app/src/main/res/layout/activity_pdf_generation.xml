@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pdf_generation"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:fontFamily="@android:fontFamily"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true" />
+
+
+    <Button
+        android:id="@+id/buttonAdjustOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:text="Adjust Order" />
+
+    <Button
+        android:id="@+id/generatepdf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/generate_button" />
+
+    <EditText
+        android:id="@+id/editTextFileName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonAdjustOrder"
+        android:layout_marginTop="16dp"
+        android:hint="@string/hint_edit_text" />
+
+    <Button
+        android:id="@+id/buttonSavePDF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextFileName"
+        android:layout_marginTop="16dp"
+        android:text="@string/save_pdf_button" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonSavePDF"
+        android:layout_marginTop="16dp"
+        android:visibility="invisible" />
+
+
+</RelativeLayout>
