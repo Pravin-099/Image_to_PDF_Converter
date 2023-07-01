@@ -19,6 +19,7 @@ import com.example.i2p.R;
 /**
  * Adapter class for displaying images in a RecyclerView.
  */
+
 public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.ImageViewHolder> {
 
     private Context mContext;
