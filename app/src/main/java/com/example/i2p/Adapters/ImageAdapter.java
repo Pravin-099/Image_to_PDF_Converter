@@ -15,6 +15,7 @@ import com.bumptech.glide.Glide;
 import com.example.i2p.Model.SelectedImagesList;
 import com.example.i2p.R;
 
+
 /**
  * Adapter class for displaying images in a RecyclerView.
  */
